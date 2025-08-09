@@ -4,12 +4,6 @@ Tento projekt slouží jako jednoduchý správce úkolů s podporou ukládání 
 
 ---
 
-## 📁 
-Struktura projektu
-[[_TOC_]]
-
----
-
 ## 🛠️ Funkce
 
 Projekt umožňuje:
