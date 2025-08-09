@@ -175,7 +175,7 @@ def hlavni_menu(conn: MySQLConnection) -> None:
             popis = input("Zadejte popis úkolu: ").strip()
             if nazev and popis:
                 pridat_ukol(conn, nazev, popis)
-                print("✅ Útol byl přidán.")
+                print("✅ Úkol byl přidán.")
             else:
                 print("❌ Název i popis jsou povinné.")
 
@@ -232,4 +232,5 @@ if __name__ == "__main__":
     if conn:
         vytvoreni_tabulky(conn)
         hlavni_menu(conn)
+
         conn.close()
